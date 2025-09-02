@@ -1,0 +1,76 @@
+{
+  "name": "BPMN_Process_Understanding_Exercise_3",
+  "projectId": "a2595feb-f7ae-4084-ba19-6170094cc23a",
+  "description": "Understanding the BPMN - business process model and notation, with the maestro",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[25.6.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "25.0.172.0",
+  "projectVersion": "1.0.4",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "d2dab186-c86f-419f-bf56-7c79eadf91f3",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Task_A.xaml",
+      "uniqueId": "d79a5c25-8d9e-468a-a7a9-7c61b4cdf27a",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Task_B.xaml",
+      "uniqueId": "7efecdd2-c6ab-4903-952e-5d10ae804733",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Task_Any.xaml",
+      "uniqueId": "2d989236-92a2-4bfd-bc8e-6621d5309860",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
